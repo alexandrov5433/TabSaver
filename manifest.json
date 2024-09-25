@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "TabSaver",
+    "version": "1.0",
+    "action": {
+        "default_popup": "./static/popup.html"
+    },
+    "icons": {
+        "16": "./static/images/watermelon_16.png",
+        "32": "./static/images/watermelon_32.png",
+        "48": "./static/images/watermelon_48.png",
+        "128": "./static/images/watermelon_128.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+}
